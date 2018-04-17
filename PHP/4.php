@@ -1,6 +1,6 @@
 <?php
 //手机号
-$tel = "15901516572";
+$tel = "15901510000";
 $t = preg_match("/1[358]{1}[0-9]{9}/", $tel);
 var_dump($t);
 
@@ -23,11 +23,11 @@ var_dump($hz3);exit;
 // preg_match_all("", subject, matches)
 
 
-$tel = '15901516572';
+$tel = '15901510000';
 $t = preg_match('/1[3578]{1}[0-9]{9}/',$tel);
 var_dump($t);
 
-$mail = 'colinleng@yeah.net';
+$mail = 'colin@cmlove.cc';
 $t = preg_match('/[a-zA-Z0-9_\-\.]+@[0-9a-zA-Z]+\.[a-zA-Z0-9]+/',$mail);
 var_dump($t);
 ?>
