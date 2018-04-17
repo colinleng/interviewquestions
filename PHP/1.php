@@ -74,4 +74,16 @@ class strack{
         return $this->_arrMin[$this->_top];
     }
 }
+
+$obj = new strack();
+$obj->push(12);
+$obj->push(56);
+$obj->push(23);
+$obj->push(89);
+$obj->push(4);
+var_dump($obj->getMax());
+$obj->pop();
+var_dump($obj->getMax());
+$obj->push(8);
+var_dump($obj->getMax());
 ?>
